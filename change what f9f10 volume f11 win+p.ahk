@@ -10,4 +10,13 @@ F9::SoundSet -1
 F6::Media_Play_Pause
 F11::<#P
 
+F10::Send {End}
+F9::Send {Home}
+F8::Send #{PrintScreen}
+F11::
+    Send !+{Space}
+    Sleep 10
+    Send n
+    return
+
 #SingleInstance force
